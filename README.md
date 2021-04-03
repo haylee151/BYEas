@@ -39,5 +39,15 @@ We are planning add an evaluator section in BYEas to show the user how synthetic
 
 ## App Installation
 
-Our application is run as a streamlit app.
+Our application is run as a streamlit app. To install, clone the repository into a directory and make sure to install the requirements.txt to make sure you have the following dependecies while running the application:
 
+  * sdv==0.8.0
+  * numpy==1.20.1
+  * streamlit==0.75.0
+  * pandas==1.1.4
+ 
+To Install Requirments:
+`python -m pip install -r requirements.txt`
+
+To run the application:
+`streamlit run app.py`
