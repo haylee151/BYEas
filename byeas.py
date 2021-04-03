@@ -1,16 +1,8 @@
 import streamlit as st
 import pandas as pd
-from ctgan import CTGANSynthesizer
-from ctgan import load_demo
 import numpy as np
 from sdv.tabular import CTGAN
-import matplotlib.pyplot as plt
-from collections.abc import Iterable
-from table_evaluator import load_data, TableEvaluator
 import pathlib
-from PIL import Image
-import time
-import json
 
 st.set_page_config(page_title=None, page_icon=None, layout='centered', initial_sidebar_state='auto')
 
@@ -24,7 +16,7 @@ with col1:
 with col2:
     st.image("https://i.imgur.com/xS0j6sT.jpg", width=200)
 
-with col3:
+with col3: 
     st.write("")
 #
 
