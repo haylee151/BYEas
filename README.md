@@ -50,4 +50,4 @@ To Install Requirments:
 `python -m pip install -r requirements.txt`
 
 To run the application:
-`streamlit run app.py`
+`streamlit run byeas.py`
